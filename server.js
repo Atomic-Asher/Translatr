@@ -69,7 +69,7 @@ const translateMessage = async (message, targetLanguage) => {
     "max_tokens": 200
   }, {
     headers: {
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer your-api-key',
       'Content-Type': 'application/json'
     }
   });
